@@ -1,0 +1,26 @@
+/* filepath: /c:/Users/ikade/OneDrive/Documents/uduality/src/app/globals.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+body.light-mode {
+  --background: #f4f4f4;
+  --foreground: #262626;
+}
+
+body.dark-mode {
+  --background: #0e0e0e;
+  --foreground: #f4f4f4;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
